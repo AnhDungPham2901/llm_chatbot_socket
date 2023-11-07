@@ -10,7 +10,7 @@ from langchain.memory import RedisChatMessageHistory
 from langchain.prompts import HumanMessagePromptTemplate
 from langchain.prompts import SystemMessagePromptTemplate
 from langchain.memory import ConversationTokenBufferMemory
-import host_healthcare_config as config
+import config
 from langchain.callbacks.base import BaseCallbackHandler
 
 def get_user_context():

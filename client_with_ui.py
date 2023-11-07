@@ -3,10 +3,10 @@ import streamlit as st
 
 def show_page_config_title():
     st.set_page_config(
-    page_title='Opus AI Assistance',
+    page_title='Chatbot',
     page_icon='🤖'
     )
-    st.title("Let's talk with Opus AI Assistant!!!")
+    st.title("Let's talk with AI Assistant!!!")
 
 def set_up_session_state():
     if 'messages' not in st.session_state:

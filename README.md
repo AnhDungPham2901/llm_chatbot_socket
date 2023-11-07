@@ -25,9 +25,11 @@ The goal of this project was to create a proof-of-concept application that demon
 ### How to Use
 
 1. Install the requiremnts.txt and create file .env and put your OpenAI API Token
-2. Start the server by running `server.py`
-3. Open the Streamlit UI by running `streamlit run client_with_ui.py`.
-4. Enter the input in the Streamlit text box and receive real-time responses from the LLM.
+2. Edit the `config.py` file to fit with your use case
+3. Start redis with port as your configuration file for chatbot memory
+4. Start the server by running `server.py`
+5. Open the Streamlit UI by running `streamlit run client_with_ui.py`.
+6. Enter the input in the Streamlit text box and receive real-time responses from the LLM.
 
 ### Future Work
 
