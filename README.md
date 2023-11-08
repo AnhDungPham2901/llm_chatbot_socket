@@ -14,6 +14,9 @@ The goal of this project was to create a proof-of-concept application that demon
 - **Streamlit UI:** A responsive and attractive user interface for the client side, providing an enhanced user experience.
 - **Asynchronous Handling:** Implementation of synchronous communication with the intention to upgrade to asynchronous handling for improved performance. For more information on this, refer to the [Python documentation on `socketserver`](https://docs.python.org/3/library/socketserver.html).
 
+### Demo Videos
+[![Watch the demo](https://img.youtube.com/vi/QrYzI0e5vGg/maxresdefault.jpg)](https://www.youtube.com/watch?v=QrYzI0e5vGg)
+
 ### Completed Items
 
 - Developed a server capable of handling socket connections and streaming data.
